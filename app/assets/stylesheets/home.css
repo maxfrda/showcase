@@ -164,6 +164,50 @@ i:hover{
 }
 
 @media screen and (max-width: 1000px) {
+  .home-banner{
+    height: 7vh;
+    width: 100vw;
+  }
+
+  .home-container{
+    display: block;
+  }
+
+  .desktop,
+  .in-touch{
+    display: none;
+  }
+
+  .icons{
+    font-size: 1.7rem;
+    padding-top: 1.8rem;
+  }
   .banner-top{
+    padding: 0rem;
+  }
+
+  .bottom{
+    margin: 0;
+  }
+
+  ul{
+    margin: 0;
+  }
+
+  i{
+    padding-left: .5rem;
+  }
+
+  h1{
+  font-size: 3.5rem;
+  }
+
+  h2{
+  font-size: 2.5rem;
+  }
+
+  .home-button{
+    font-size: 2rem;
+    padding: .8rem;
   }
 }
