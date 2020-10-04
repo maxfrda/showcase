@@ -99,6 +99,7 @@ h1{
 h2{
   font-size: 1.9rem;
   margin: .5rem;
+  margin-left: 0;
   font-weight: lighter;
 }
 
@@ -107,4 +108,20 @@ h2{
   color: white;
   padding: 4rem;
   text-shadow: 1px 1px black;
+}
+
+.home-button{
+  background-color: transparent;
+  padding: .4rem;
+  border: .05rem solid white;
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+  box-shadow: 1px 1px 1px 1px rgb(0,0,0,0.2);
+  display: block;
+  margin-top: 1rem;
+}
+
+.home-buttons{
+  margin-top: 3rem;
 }
