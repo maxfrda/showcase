@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.background-image{
+
+  background-image: url('bay.jpg');
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-banner{
+  width: 25vw;
+  height: 100vh;
+  background-color: #335ACA;
+  opacity: 90%;
+}
+
+
+.home-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.banner-top{
+  height: 30%;
+  background-color: #335ACA;;
+  padding-top: 1rem;
+}
+
+#avatar{
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('avatar1.jpg');
+
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: inset 1px 1px 20px 1px #000;
+
+}
+
+.avatar-text{
+  color: white;
+  text-align: center;
+  margin: .5rem;
+
+}
+
+.name{
+  font-size: 1.2rem;
+  font-weight: 300;
+
+}
+
+.role{
+  font-size: .9rem;
+}
+
+.home-list{
+  margin-top: 5rem;
+  color: white;
+  opacity: 70%;
+  font-size: .8rem;
+}
+
+li{
+  margin: .7rem;
+}
+
+.icons{
+  padding: .4rem;
+  margin-left: 1rem
+}
+
+i{
+  margin-left: .5rem;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 1.9rem;
+  margin: .5rem;
+  font-weight: lighter;
+}
+
+.home-text{
+  width: 70vw;
+  color: white;
+  padding: 4rem;
+  text-shadow: 1px 1px black;
+}
