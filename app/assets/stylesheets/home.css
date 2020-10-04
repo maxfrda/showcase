@@ -75,12 +75,13 @@ body{
 .home-list{
   margin-top: 5rem;
   color: white;
-  opacity: 70%;
   font-size: .8rem;
 }
 
 li{
   margin: .7rem;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .icons{
@@ -120,8 +121,49 @@ h2{
   box-shadow: 1px 1px 1px 1px rgb(0,0,0,0.2);
   display: block;
   margin-top: 1rem;
+  opacity: 80%;
+}
+
+.home-button:hover{
+  opacity: 100%;
 }
 
 .home-buttons{
   margin-top: 3rem;
+}
+
+.home-list-item{
+  display: flex;
+  opacity: 70%;
+}
+
+.arrow{
+  display: none;
+}
+
+.home-list-item:hover > .arrow{
+  display: block;
+  opacity: 100%;
+}
+
+.home-list-item:hover{
+  opacity: 100%;
+}
+
+
+i{
+  opacity: 50%;
+}
+
+i:hover{
+  opacity: 100%;
+}
+
+.in-touch{
+  opacity: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+  .banner-top{
+  }
 }
