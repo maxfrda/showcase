@@ -211,3 +211,9 @@ i:hover{
     padding: .8rem;
   }
 }
+
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: .8rem;
+}
