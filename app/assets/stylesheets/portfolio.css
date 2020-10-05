@@ -21,7 +21,7 @@
   font-size: .9rem;
 }
 .portfolio-header{
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -99,11 +99,24 @@
   border: none;
 }
 
+.mobile-avatar{
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
 /*  .home-container{
     display: block;
   }
 */
+
+.mobile-avatar{
+  display: block;
+  background-color: #335ACA;
+}
+
+.avatar-text{
+  margin: 0;
+}
 
 .project-subtitle{
   margin-bottom:  3rem;
