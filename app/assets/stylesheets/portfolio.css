@@ -106,6 +106,8 @@
 */
   .project{
     display: block;
+    margin-right: 3rem;
+    margin-left: 4rem;
   }
 
   .portfolio-text{
@@ -135,7 +137,7 @@
 }
 
 .project-image{
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .tech-button{
