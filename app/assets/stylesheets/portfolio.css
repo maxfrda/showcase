@@ -99,3 +99,53 @@
   border: none;
 }
 
+@media screen and (max-width: 1000px) {
+/*  .home-container{
+    display: block;
+  }
+*/
+  .project{
+    display: block;
+  }
+
+  .portfolio-text{
+  width: 100vw;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+
+}
+
+.home-banner{
+  position: absolute;
+}
+
+.portfolio-header,
+.portfolio-paragraph{
+  text-align: center;
+}
+
+.portfolio-header{
+  margin-top: 4rem;
+}
+
+.project-image,
+.project-tmo,
+.project-tgg{
+  text-align: center;
+}
+
+.project-image{
+  margin-top: 1rem;
+}
+
+.tech-button{
+  font-size: 1rem;
+  padding: .8rem;
+}
+
+.view-online{
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+}
