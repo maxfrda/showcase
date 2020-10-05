@@ -3,10 +3,13 @@
   padding: 1.5rem;
 }
 
+
+
 .portfolio-header,
 .portfolio-paragraph,
 .project-header,
-.project-subtitle{
+.project-subtitle,
+.tech{
   font-family: serif;
   color: rgb(85,85,85);
 }
@@ -48,6 +51,12 @@
   object-fit: contain;
 }
 
+.project-tmo img{
+  width: 30rem;
+  height: 15rem;
+  object-fit: contain;
+}
+
 .view-online{
   background-color: #335ACA;
   color: white;
@@ -55,9 +64,26 @@
   font-size: .8rem;
   border: none;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
+.view-online:hover{
+  text-decoration: underline;
+}
 .white-color {
   opacity: 100%;
   padding-right: .2rem;
 }
+
+.tech{
+  font-size: .7rem;
+}
+
+.tech-button{
+  background-color: #335ACA;
+  color: white;
+  padding: .4rem;
+  font-size: .6rem;
+  border: none;
+}
+
