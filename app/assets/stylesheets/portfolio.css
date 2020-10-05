@@ -1,6 +1,8 @@
 .portfolio-text{
   width: 70vw;
   padding: 1.5rem;
+  overflow: auto;
+  float: right;
 }
 
 
