@@ -1,0 +1,11 @@
+.empty-banner{
+  background-color: #F6F6F6;
+  width: 30vw;
+  height: 100vh;
+  float: right;
+}
+.about-text{
+  width: 45vw;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
