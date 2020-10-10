@@ -141,10 +141,18 @@
 }
 
 .project-header{
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
 
+}
+
+.project-bold{
+  font-size: .8rem;
+}
+
+li{
+  font-size: .7rem;
 }
 
 .home-banner{
@@ -157,7 +165,7 @@
 }
 
 .portfolio-header{
-  font-size: 5rem;
+  font-size: 4rem;
   margin-top: 4rem;
 }
 
