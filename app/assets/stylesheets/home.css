@@ -97,7 +97,7 @@ li{
   margin-left: 1rem
 }
 
-i{
+a{
   margin-left: .5rem;
 }
 
@@ -154,11 +154,14 @@ h2{
 }
 
 
-i{
+.icon{
   opacity: 50%;
+  margin-left: .5rem;
+  text-decoration: none;
+  color: white;
 }
 
-i:hover{
+.icon:hover{
   opacity: 100%;
 }
 
