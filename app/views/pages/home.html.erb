@@ -1,51 +1,14 @@
 <div class="background-image">
   <div class='home-container'>
-    <div class="home-banner">
-      <div class="banner-top">
-        <div class="desktop">
-          <div id="avatar">
-            <!-- <image src="images/avatar.jpg"> -->
-          </div>
-          <div class="avatar-text name"> MAX RAMIREZ-DE-ARELLANO</div>
-          <div class="avatar-text role"> FULL STACK DEVELOPER</div>
-
-          <div class="home-list">
-            <ul style="list-style-type:none;">
-              <div class="home-list-item">
-                <li>PORTFOLIO</li>
-                <li class="arrow">></li>
-              </div>
-              <div class="home-list-item">
-                <li>CONTACT ME</li>
-                <li class="arrow">></li>
-              </div>
-            </ul>
-          </div>
-        </div>
-
-        <div class="home-list bottom">
-          <ul style="list-style-type:none;">
-            <li  class="in-touch" style="font-size: .6rem">GET IN TOUCH</li>
-          </ul>
-          <div class="icons">
-            <i class="fa fa-github fa-2x icon" aria-hidden="true"></i>
-            <i class="fa fa-envelope fa-2x icon" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-
+  <%= render :partial => 'shared/left_banner' %>
     <div class="home-text">
       <h1> Hi, I'm Max,</h1>
       <h2> a software engineer specialized in both</h2>
       <h2 style="font-weight: bold"> front-end and back-end</h2>
-
       <div class="home-buttons">
         <button class="home-button">PORTFOLIO</button>
         <button class="home-button">ABOUT ME</button>
       </div>
-
     </div>
-
   </div>
 </div>

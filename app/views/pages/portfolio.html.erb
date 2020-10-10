@@ -1,0 +1,97 @@
+<div class="home-container">
+
+  <%= render :partial => 'shared/left_banner' %>
+   <div class="portfolio-text">
+    <p class="portfolio-header"> PORTFOLIO</p>
+    <p class="portfolio-paragraph"> The following are a list of my works. Designed entirely be me unless specified</p>
+    <hr class="dashed">
+    <div class='project'>
+      <div class="project-text">
+        <p class='project-header'>The Simple Diary</p>
+        <p class='project-subtitle'>A Diary designed to be intuitive and easy to use</p>
+        <p class="project-bold"> The Simple Diary allows users to record their entries
+        without having to navigate all the unnecessary bloat that plagues similar applications.
+       The app does several things:</p>
+        <ul>
+          <li>Allows users to create and update entries, with timestamps</li>
+          <li>Provides simple navigation of entries using a single-page carousel</li>
+          <li>Works on desktops/tablets(not designed for mobile)</li>
+        </ul>
+        <button class="view-online">
+          <i class="fa fa-external-link white-color"></i>
+          <a href="https://www.thesimplediary.com/" style='text-decoration: none; color:white'>
+            View online
+          </a>
+        </button>
+        <p class="tech">TECHNOLOGIES</p>
+        <button class="tech-button">RUBY ON RAILS</button>
+        <button class="tech-button">JAVASCRIPT</button>
+        <button class="tech-button">JQUERY</button>
+        <button class="tech-button">BOOTSTRAP</button>
+
+
+
+      </div>
+      <div class="project-image">
+        <%= image_tag 'TheSimpleDiary.png' %>
+      </div>
+    </div>
+    <hr class="dashed">
+      <div class='project'>
+        <div class="project-text">
+          <p class='project-header'>T-Mobile Plan Comparison Tool</p>
+          <p class='project-subtitle'>An interactive plan comparison tool designed for front-line use</p>
+          <p class="project-bold"> This plan comparison tool allows front line T-Mobile employees
+          to quickly compare most used T-Mobile plans by doing the following: </p>
+
+          <ul>
+            <li> Listing all features of common T-Mobile plans in convenient layout</li>
+            <li> Allowing users to calculate cost of up to 12 lines of service on each plan</li>
+            <li> Changing layout dynamically based off of device (responsive)
+          </ul>
+          <p style='font-style: italic'> The app is actively being used in several retail locations.</p>
+        <button class="view-online">
+          <i class="fa fa-external-link white-color"></i>
+          <a href="http://tmobile-plans.herokuapp.com/" style='text-decoration: none; color:white'>
+            View online
+          </a>
+        </button>
+        <p class="tech">TECHNOLOGIES</p>
+        <button class="tech-button">RUBY ON RAILS</button>
+        <button class="tech-button">JAVASCRIPT</button>
+      </div>
+      <div class="project-tmo">
+        <%= image_tag 'Tmobile.png' %>
+      </div>
+    </div>
+    <hr class="dashed">
+      <div class='project'>
+        <div class="project-text">
+          <p class='project-header'>The Goody Goody</p>
+          <p class='project-subtitle'>Vinyl at the cheapest price</p>
+          <p class="project-bold"> Compare the prices of Vinyl record's from Berlin's
+          most prominent record stores. The app aim's to do the following</p>
+          <ul>
+            <li> Collect information from all records stores in Berlin (starting) and compare prices</li>
+            <li> Allow the user to preview the tracks via Spotify API</li>
+            <li> Save releases to wishlist and be notified when it is back in stock</li>
+            <li> Connect with record stores so user can place orders</li>
+          </ul>
+          <p style='font-style: italic'> The app is still being developed by me and one other person and is currently in Alpha phase.</p>
+        <button class="view-online">
+          <i class="fa fa-external-link white-color"></i>
+          <a href="https://www.thegoodygoody.com/" style='text-decoration: none; color:white'>
+            View online
+          </a>
+        </button>
+        <p class="tech">TECHNOLOGIES</p>
+        <button class="tech-button">RUBY ON RAILS</button>
+        <button class="tech-button">BOOTSTRAP</button>
+        <button class="tech-button">JAVASCRIPT</button>
+      </div>
+      <div class="project-tgg">
+        <%= image_tag 'thegoodygoody.png' %>
+      </div>
+    </div>
+  </div>
+</div>

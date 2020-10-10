@@ -19,12 +19,20 @@ body{
   height: 100vh;
   background-color: #335ACA;
   opacity: 90%;
+  float: left;
+  position: fixed;
 }
 
+.home-text{
+  width: 70vw;
+  color: white;
+  text-shadow: 1px 1px black;
+  float: right;
+  margin-top: 4rem;
+}
 
 .home-container{
-  display: flex;
-  justify-content: space-between;
+
 }
 
 
@@ -89,7 +97,7 @@ li{
   margin-left: 1rem
 }
 
-i{
+a{
   margin-left: .5rem;
 }
 
@@ -104,12 +112,7 @@ h2{
   font-weight: lighter;
 }
 
-.home-text{
-  width: 70vw;
-  color: white;
-  padding: 4rem;
-  text-shadow: 1px 1px black;
-}
+
 
 .home-button{
   background-color: transparent;
@@ -151,11 +154,14 @@ h2{
 }
 
 
-i{
+.icon{
   opacity: 50%;
+  margin-left: .5rem;
+  text-decoration: none;
+  color: white;
 }
 
-i:hover{
+.icon:hover{
   opacity: 100%;
 }
 
@@ -169,9 +175,18 @@ i:hover{
     width: 100vw;
   }
 
+
   .home-container{
     display: block;
   }
+
+  .home-text{
+  width: 70vw;
+  color: white;
+  padding: 4rem;
+  text-shadow: 1px 1px black;
+  float: left;
+}
 
   .desktop,
   .in-touch{
@@ -180,7 +195,6 @@ i:hover{
 
   .icons{
     font-size: 1.7rem;
-    padding-top: 1.8rem;
   }
   .banner-top{
     padding: 0rem;
@@ -210,4 +224,10 @@ i:hover{
     font-size: 2rem;
     padding: .8rem;
   }
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: .8rem;
 }
