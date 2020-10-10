@@ -119,12 +119,13 @@ h2{
   padding: .4rem;
   border: .05rem solid white;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: thin;
   color: white;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
-  display: block;
+  // display: block;
   margin-top: 1rem;
   opacity: 80%;
+  text-decoration: none;
 }
 
 .home-button:hover{
@@ -133,6 +134,7 @@ h2{
 
 .home-buttons{
   margin-top: 3rem;
+
 }
 
 .home-list-item{
@@ -169,21 +171,42 @@ h2{
   opacity: 70%;
 }
 
+.dropdown{
+  display: none;
+  width: 100vw;
+  height: 12vh;
+  background-color: #335ACA;
+
+}
+
+.hamburger{
+  display: none !important;
+}
+
 @media screen and (max-width: 1000px) {
   .home-banner{
     height: 7vh;
     width: 100vw;
   }
 
+  .dropdown{
+    // display: block;
+  }
+
+
+  .hamburger{
+  display: block !important;
+  }
 
   .home-container{
     display: block;
   }
 
   .home-text{
-  width: 70vw;
+  width: 80vw;
   color: white;
-  padding: 4rem;
+  padding: 6rem;
+  padding-left: 4rem;
   text-shadow: 1px 1px black;
   float: left;
 }
@@ -195,6 +218,7 @@ h2{
 
   .icons{
     font-size: 1.7rem;
+    margin-bottom: 1rem;
   }
   .banner-top{
     padding: 0rem;
@@ -217,12 +241,51 @@ h2{
   }
 
   h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
   }
 
   .home-button{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    border: .1rem solid white;
     padding: .8rem;
+    margin-top: 3rem;
+
+
+  }
+
+  .home-buttons{
+    margin-top: 8rem;
+
+
+  }
+
+  .background-image{
+    background-image: asset-data-url('bay-mobile.jpg');
+  }
+
+  .dropdown-item{
+    font-size: 2rem;
+    opacity: 75%;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .dropdown-item{
+    margin-top: 2rem;
+    display: inline-block;
+  }
+
+  .hamburger{
+    float: right;
+    margin-right: 2rem;
+  }
+
+  .dropdown-items{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    float: right;
   }
 }
 

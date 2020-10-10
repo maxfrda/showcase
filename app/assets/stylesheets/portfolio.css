@@ -13,7 +13,7 @@
 .project-header,
 .project-subtitle,
 .tech{
-  font-family: serif;
+  /*font-family: serif;*/
   color: rgb(85,85,85);
 }
 
@@ -190,6 +190,10 @@ ul{
   height: 23rem;
   object-fit: contain;
   margin-top: 3rem;
+}
+
+.icon{
+  margin-left: .9rem;
 }
 
 }

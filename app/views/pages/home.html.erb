@@ -4,10 +4,11 @@
     <div class="home-text">
       <h1> Hi, I'm Max,</h1>
       <h2> a software engineer specialized in both</h2>
-      <h2 style="font-weight: bold"> front-end and back-end</h2>
+      <h2 style="font-weight: bold"> front-end and back-end.</h2>
       <div class="home-buttons">
-        <button class="home-button">PORTFOLIO</button>
-        <button class="home-button">ABOUT ME</button>
+        <span><%= link_to 'PORTFOLIO', portfolio_path, class: 'home-button' %></span>
+        <span><%= link_to 'ABOUT ME', about_path, class: 'home-button' %></span>
+
       </div>
     </div>
   </div>
