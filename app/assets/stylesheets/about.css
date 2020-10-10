@@ -24,9 +24,13 @@
 }
 
 .about-text{
-  margin: 2rem;
+  margin: 3rem;
 
 }
+
+  .break{
+    display: none;
+  }
 
 .about-subtitle{
   font-size: .8rem;
@@ -44,4 +48,37 @@
 .blue-text{
   color: #335ACA;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-container{
+    display: inline-block;
+    vertical-align: top;
+   }
+
+
+  .right-banner{
+    display: none;
+  }
+
+  .middle-text{
+    width: 100vw;
+    margin-top: 7rem;
+  }
+
+  .text-spacing{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 5rem;
+  }
+
+  .about-text{
+  margin: 4rem;
+
+  }
+
+  .break{
+    display: block
+  }
+
 }
