@@ -6,8 +6,8 @@
       <h2> a software engineer specialized in both</h2>
       <h2 style="font-weight: bold"> front-end and back-end.</h2>
       <div class="home-buttons">
-        <span><%= link_to 'PORTFOLIO', portfolio_path, class: 'home-button' %></span>
-        <span><%= link_to 'ABOUT ME', about_path, class: 'home-button' %></span>
+        <span><%= link_to 'PORTFOLIO', portfolio_path, method: :get, class: 'home-button' %></span>
+        <span><%= link_to 'ABOUT ME', about_path,  method: :get, class: 'home-button' %></span>
 
       </div>
     </div>
