@@ -1,6 +1,7 @@
+
 const dropdown = document.querySelector('.dropdown');
 const hamburger = document.querySelector('.hamburger');
-
+console.log('working')
 
 hamburger.addEventListener('click', () => {
   if (dropdown.style.display !== 'block') {
