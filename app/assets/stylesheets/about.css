@@ -1,11 +1,47 @@
-.empty-banner{
+.right-banner{
   background-color: #F6F6F6;
-  width: 30vw;
   height: 100vh;
-  float: right;
+  width: 30vw;
+  display: inline-block;
 }
-.about-text{
+
+.left-banner{
+  width: 25vw;
+  display: inline-block;
+}
+
+.middle-text{
+  height: 100vh;
   width: 45vw;
-  padding: 1.5rem;
-  margin-bottom: 3rem;
+  /*float: middle;*/
+  display: inline-block;
+
+}
+
+.about-container{
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+.about-text{
+  margin: 2rem;
+
+}
+
+.about-subtitle{
+  font-size: .8rem;
+}
+
+.text-spacing{
+  line-height: 1.4rem;
+  font-size: .9rem;
+  font-family: sans-serif;
+  color: rgb(85,85,85);
+
+
+}
+
+.blue-text{
+  color: #335ACA;
+  font-weight: bold;
 }
