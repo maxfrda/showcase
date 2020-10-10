@@ -121,6 +121,7 @@
 
 .project-subtitle{
   margin-bottom:  3rem;
+  font-size: .8rem;
 }
   .project{
     display: block;
@@ -128,6 +129,9 @@
     margin-left: 4rem;
   }
 
+  .project-text{
+    margin-bottom: 3rem;
+  }
   .portfolio-text{
   width: 100vw;
   margin-bottom: 3rem;
@@ -144,7 +148,12 @@
   font-size: 2rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
+  padding-top: 2rem;
 
+}
+
+.project-image{
+  margin-bottom: 3rem;
 }
 
 .project-bold{
@@ -167,6 +176,8 @@ li{
 .portfolio-header{
   font-size: 4rem;
   margin-top: 4rem;
+  padding-top: 2rem;
+
 }
 
 .project-image,
