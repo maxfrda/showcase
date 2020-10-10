@@ -134,8 +134,7 @@ h2{
 
 .home-buttons{
   margin-top: 3rem;
-  display: flex;
-  justify-content: space-between;
+
 }
 
 .home-list-item{
@@ -172,12 +171,32 @@ h2{
   opacity: 70%;
 }
 
+.dropdown{
+  display: none;
+  width: 100vw;
+  height: 12vh;
+  background-color: #335ACA;
+
+}
+
+.hamburger{
+  display: none !important;
+}
+
 @media screen and (max-width: 1000px) {
   .home-banner{
     height: 7vh;
     width: 100vw;
   }
 
+  .dropdown{
+    // display: block;
+  }
+
+
+  .hamburger{
+  display: block !important;
+  }
 
   .home-container{
     display: block;
@@ -199,6 +218,7 @@ h2{
 
   .icons{
     font-size: 1.7rem;
+    margin-bottom: 1rem;
   }
   .banner-top{
     padding: 0rem;
@@ -234,13 +254,38 @@ h2{
   }
 
   .home-buttons{
-    margin-top: 5rem;
+    margin-top: 8rem;
 
 
   }
 
   .background-image{
     background-image: asset-data-url('bay-mobile.jpg');
+  }
+
+  .dropdown-item{
+    font-size: 2rem;
+    opacity: 75%;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .dropdown-item{
+    margin-top: 2rem;
+    display: inline-block;
+  }
+
+  .hamburger{
+    float: right;
+    margin-right: 2rem;
+  }
+
+  .dropdown-items{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    float: right;
   }
 }
 
