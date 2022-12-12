@@ -10,7 +10,15 @@
       <div class="home-list">
         <ul style="list-style-type:none;">
           <div class="home-list-item">
+            <li><%= link_to'HOME', root_path, class: 'link'%></li>
+            <li class="arrow">></li>
+          </div>
+          <div class="home-list-item">
             <li><%= link_to'PORTFOLIO', portfolio_path, class: 'link'%></li>
+            <li class="arrow">></li>
+          </div>
+          <div class="home-list-item">
+            <li><%= link_to'EXPERIENCE', experience_path, class: 'link'%></li>
             <li class="arrow">></li>
           </div>
           <div class="home-list-item">
@@ -28,13 +36,16 @@
       <div class="icons">
         <a href="https://github.com/maxfrda" class="fa fa-github fa-2x icon" aria-hidden="true"></a>
         <a href="mailto: maxfrda@gmail.com" class="fa fa-envelope fa-2x icon" aria-hidden="true"></a>
+        <a href="https://www.linkedin.com/in/max-arellano-6a416b259/" class="fa fa-linkedin fa-2x icon" aria-hidden="true"></a>
         <a class="fa fa-bars fa-2x icon hamburger"></a>
       </div>
 
       <div class="dropdown">
         <hr>
         <div class='dropdown-items'>
+          <div><%= link_to'HOME', root_path, method: :get, class: 'dropdown-item'%></div>
           <div><%= link_to'PORTFOLIO', portfolio_path, method: :get, class: 'dropdown-item'%></div>
+          <div><%= link_to'EXPERIENCE', experience_path, method: :get, class: 'dropdown-item'%></div>
           <div><%= link_to'ABOUT', about_path, method: :get, class: 'dropdown-item'%></div>
         </div>
       </div>
