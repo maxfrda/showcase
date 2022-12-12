@@ -31,10 +31,6 @@ body{
   margin-top: 4rem;
 }
 
-.home-container{
-
-}
-
 
 .banner-top{
   height: 30%;
@@ -97,10 +93,6 @@ li{
   margin-left: 1rem
 }
 
-a{
-  margin-left: .5rem;
-}
-
 h1{
   font-size: 2.5rem;
 }
@@ -122,8 +114,7 @@ h2{
   font-weight: thin;
   color: white;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
-  // display: block;
-  margin-top: 1rem;
+  margin-top: 6rem;
   opacity: 80%;
   text-decoration: none;
 }
@@ -174,7 +165,7 @@ h2{
 .dropdown{
   display: none;
   width: 100vw;
-  height: 12vh;
+  height: 20vh;
   background-color: #335ACA;
 
 }
@@ -188,11 +179,6 @@ h2{
     height: 7vh;
     width: 100vw;
   }
-
-  .dropdown{
-    // display: block;
-  }
-
 
   .hamburger{
   display: block !important;
@@ -248,15 +234,10 @@ h2{
     font-size: 2.5rem;
     border: .1rem solid white;
     padding: .8rem;
-    margin-top: 3rem;
-
-
   }
 
   .home-buttons{
     margin-top: 8rem;
-
-
   }
 
   .background-image{

@@ -4,4 +4,7 @@ Rails.application.routes.draw do
 
   get '/portfolio' => 'pages#portfolio'
   get '/about' => 'pages#about'
+  get '/experience' => 'pages#experience'
+  
+
 end

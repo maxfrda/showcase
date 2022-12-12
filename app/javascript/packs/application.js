@@ -17,4 +17,3 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 import("./dropdown")
 
-console.log('FUCK RAILS 6');

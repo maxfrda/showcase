@@ -171,6 +171,7 @@ li{
 .portfolio-header,
 .portfolio-paragraph{
   text-align: center;
+  margin-left: 2rem;
 }
 
 .portfolio-header{
