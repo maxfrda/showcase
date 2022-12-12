@@ -5,6 +5,12 @@
   justify-content: space-between;
 }
 
+.experience-image img{
+  width: 30rem;
+  height: 30rem;
+  object-fit: contain;
+}
+
 .company-logo img{
   height: 1.5rem;
   margin-right: .5rem;
@@ -44,8 +50,20 @@
     font-size: 2.8rem;
   }
 
+  .experience-image img{
+    display: none;
+  }
+
+  .experience-image {
+    margin-bottom: 3rem;
+  }
+
   .experience-company {
     margin-top: 2rem;
+  }
+
+  .experience-titles{
+    margin-bottom: 2.5rem;
   }
 
   .company-logo img{
