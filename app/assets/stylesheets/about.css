@@ -1,8 +1,8 @@
 .right-banner{
   background-color: #F6F6F6;
-  height: 100vh;
   width: 30vw;
   display: inline-block;
+  /* height: 2000px; */
 }
 
 .left-banner{
@@ -11,7 +11,6 @@
 }
 
 .middle-text{
-  height: 100vh;
   width: 45vw;
   /*float: middle;*/
   display: inline-block;
@@ -25,7 +24,6 @@
 
 .about-text{
   margin: 3rem;
-
 }
 
   .break{
@@ -42,12 +40,29 @@
   font-family: sans-serif;
   color: rgb(85,85,85);
 
-
 }
 
 .blue-text{
   color: #335ACA;
   font-weight: bold;
+}
+
+.about-link{
+  color: #335ACA;
+  text-decoration: none;
+}
+.blue{
+  color: #335ACA;
+  font-weight: bold;
+}
+.bold{
+  font-weight: bold;
+}
+
+.list{
+  font-size: .9rem;
+  font-family: sans-serif;
+  color: rgb(85,85,85);
 }
 
 @media screen and (max-width: 1000px) {
@@ -74,6 +89,10 @@
     font-size: 2rem;
     line-height: 3rem;
     margin-top: 5rem;
+  }
+
+  .list li{
+    font-size: 2rem;
   }
 
   .about-text{
