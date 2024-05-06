@@ -47,7 +47,17 @@
 }
 
 
+.split-project-image-container {
+  display: flex;
+  justify-content: space-between;
+}
 
+.split-project-image {
+  flex: 1;
+  margin: 0 5px; /* Adjust margin as needed */
+  width: 10px; /* Adjust the width as needed */
+  height: 10px; /* Maintain aspect ratio */
+}
 .project-image img{
   width: 30rem;
   height: 30rem;
